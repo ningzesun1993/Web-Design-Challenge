@@ -1,5 +1,5 @@
 body {
-  background: lightblue;
+  background: rgb(231, 231, 231);
 }
 /* every box is this size */
 
@@ -11,8 +11,8 @@ body {
   padding: 10px;
   background: white;
   margin-top:50px;
-  margin-left:5px;
-  margin-right:5px;
+  margin-left:0px;
+  margin-right:0px;
   margin-bottom:20px;
   align-content: center;
 }
@@ -20,10 +20,11 @@ body {
 
 /* Giving our navbar some padding and a background color */
 .navbar {
-  margin-right: 0px;
-  margin-left: 0px;
-  padding: 25px;
-  background: #5D6D7E;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 30px;
+  background: white;
+  border: 0px;
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -47,16 +48,20 @@ p{
 }
 
 
-.c-d{color:white;
-  font-size: 25px;
+.c-d{
+  color:rgb(92, 177, 235);
+  font-size: 13px;
+  margin-right: 10px;
+  margin-top: -7px;
+  position: relative;
 }
 
 .latitude {
   color: white;
   font-family: verdana;
   font-size: 40px;
-  background-color: #2874A6;
-  border: 1px solid #2874A6;
+  background-color: rgb(92, 177, 235);
+  border: 1px solid rgb(92, 177, 235);
     padding: 15px;
 }
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
